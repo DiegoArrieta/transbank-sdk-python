@@ -24,7 +24,9 @@ VERSION = None
 # What packages are required for this module to be executed?
 REQUIRED = [
   "marshmallow<=2.15.6",
-  "requests>=2.20.0"
+  "requests>=2.21.0",
+  "python-tbk>=0.2.1",
+  "pyopenssl>=19.0.0"
 ]
 
 TESTS_REQUIREMENTS = [

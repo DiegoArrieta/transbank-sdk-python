@@ -14,7 +14,9 @@ requests-mock = "<=1.5.2"
 
 [packages]
 marshmallow = '<=2.15.6'
-requests = '>=2.20.0'
+requests = '>=2.21.0'
+python-tbk = ">=0.2.1"
+pyopenssl = ">=19.0.0"
 
 [scripts]
 tests = "python setup.py nosetests"
